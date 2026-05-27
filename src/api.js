@@ -1,5 +1,5 @@
 // Mock API integration using MockAPI.io or similar service
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://67961e39affa42b991b1d206.mockapi.io/api/books';
+const API_BASE_URL = (import.meta.env.VITE_API_URL ?? '') || 'https://67961e39affa42b991b1d206.mockapi.io/api/books';
 
 export const getBooks = async () => {
   try {
