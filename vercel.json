@@ -1,0 +1,13 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev:vite",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "env": {
+    "VITE_API_URL": {
+      "description": "API Base URL",
+      "example": "http://localhost:3001",
+      "value": ""
+    }
+  }
+}
