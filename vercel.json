@@ -7,7 +7,7 @@
     "VITE_API_URL": {
       "description": "API Base URL",
       "example": "http://localhost:3001",
-      "value": ""
+      "value": "https://67961e39affa42b991b1d206.mockapi.io/api/books"
     }
   }
 }
